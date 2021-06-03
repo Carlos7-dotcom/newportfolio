@@ -1,0 +1,35 @@
+.skill-title {
+  font-family: "Recursive", sans-serif;
+  font-size: 3.5rem;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(54, 54, 54);
+}
+
+.skill-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 255, 0.2);
+}
+
+.skill-card {
+  text-align: center;
+  background-color: #fff;
+  padding: 5rem;
+  margin-bottom: 3rem;
+  img {
+    width: 10rem;
+  }
+  h3 {
+    color: rgb(54, 54, 54);
+  }
+}

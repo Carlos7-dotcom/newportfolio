@@ -1,0 +1,21 @@
+@import "./title";
+@import "./skill";
+@import "./work";
+@import "nav";
+@import "contact";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Recursive";
+}
+
+p,
+a {
+  font-family: "Heebo";
+}
